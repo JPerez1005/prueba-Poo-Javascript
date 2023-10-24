@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section
+{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+section h1{
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.gestion-personas{
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/165/364/980/anime-anime-girls-persona-series-persona-5-wallpaper-4484b54cd9f734d28391c0fceabc6b0f.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box{
+    margin-top: 10%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    gap: 20px;
+    border-radius: 10px;
+    border: 2px #222 solid;
+}
+
+.gestion-mascotas{
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/423/819/779/zorro-rojo-animales-nieve-naturaleza-wallpaper-afec82bf1d2975b8a7cdf254d4334040.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul{
+    backdrop-filter: blur(20px);
+    gap: 20px;
+    border-radius: 10px;
+    border: 2px #222 solid;
+    padding: 5%;
+    visibility: hidden;
+    margin: 10%;
+}

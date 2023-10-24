@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de mascotas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="gestion-personas">
+        <div class="box">
+            <h1>Gestion Personas</h1>
+            <input type="text" placeholder="nombre.." id="nombre-persona">
+            <input type="number" placeholder="edad.." id="edad-persona">
+            <input type="number" placeholder="cedula.." id="id-persona">
+            <button id="agregar-personas" onclick="agregarPersonas()">Agregar</button>
+            <button id="guardar-cambios">Guardar</button>
+        </div>
+        <ul id="lista-personas">
+
+        </ul>
+    </section>
+    <section class="gestion-mascotas">
+        <div class="box">
+            <h1>Gestión Mascotas</h1>
+            <input type="text" placeholder="nombre.." id="nombre-mascota">
+            <input type="text" placeholder="tipo.." id="tipo-mascota">
+            <input type="text" placeholder="raza.." id="raza-mascota">
+            <button id="agregar-mascotas" onclick="agregarMascotas()">Agregar</button>
+            <!-- Agregar el botón "Guardar" (inicialmente oculto) -->
+            <button id="guardar-cambios-mascota" style="display: none;">Guardar</button>
+        </div>
+        <ul id="lista-mascotas"></ul>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
